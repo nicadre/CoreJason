@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
 
-    func toCamelCase() -> String {
+    func camelCased() -> String {
 
         var camel: String = ""
 
@@ -30,7 +30,7 @@ extension String {
 
     }
 
-    func toSnakeCase() -> String {
+    func snakeCased() -> String {
 
         let option: EnumerationOptions = EnumerationOptions.byComposedCharacterSequences
         let range: Range<String.Index> = self.startIndex ..< self.endIndex
