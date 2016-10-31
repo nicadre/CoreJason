@@ -1,0 +1,16 @@
+PODS:
+  - CoreJason (0.1.0)
+
+DEPENDENCIES:
+  - CoreJason (from `../`)
+
+EXTERNAL SOURCES:
+  CoreJason:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CoreJason: b32dbc4e99efbdc1611970ec99c4a2c9115a2eb3
+
+PODFILE CHECKSUM: d6a440eedff9a1536020b5f30c80ded565a4311a
+
+COCOAPODS: 1.1.1
