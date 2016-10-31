@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoreJason_Example' do
+  pod 'CoreJason', :path => '../'
+
+  target 'CoreJason_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
